@@ -74,7 +74,7 @@ sections:
         altText: Linedata
         caption: Linedata
       - type: ImageBlock
-        url: /images/logo5.svg
+        url: /images/Delloite.webp
         altText: Logo five
         caption: Logo five
     spacing: 34
