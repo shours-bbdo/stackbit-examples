@@ -66,13 +66,13 @@ sections:
         caption: Goldman Sachs
         elementId: ''
       - type: ImageBlock
-        url: /images/LineData.jpg
-        altText: Linedata
-        caption: Linedata
-      - type: ImageBlock
         url: /images/BBDO.png
         altText: BBDO
         caption: BBDO
+      - type: ImageBlock
+        url: /images/LineData.jpg
+        altText: Linedata
+        caption: Linedata
       - type: ImageBlock
         url: /images/logo5.svg
         altText: Logo five
