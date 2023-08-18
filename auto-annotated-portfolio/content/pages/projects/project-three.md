@@ -14,7 +14,7 @@ featuredImage:
   altText: Project thumbnail image
 media:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/sentiment_analysis2.jpg
   altText: Project image
 ---
 This was a cool project as I had never worked on web scraping before, using selenium automates a lot of manual stuff but you need to think of the tradeoff of writing and debugging code when maybe the manual download process might take <1 hr. 
