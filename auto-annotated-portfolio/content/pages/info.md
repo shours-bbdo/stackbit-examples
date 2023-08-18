@@ -61,6 +61,12 @@ sections:
     subtitle: 'I worked with these folks:'
     images:
       - type: ImageBlock
+        url: >-
+          https://assets.stackbit.com/components/images/default/default-image.png
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
         url: /images/logo1.svg
         altText: Logo one
         caption: Logo one
