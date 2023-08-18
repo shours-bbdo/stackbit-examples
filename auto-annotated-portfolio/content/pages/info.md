@@ -71,7 +71,7 @@ sections:
         caption: Linedata
       - type: ImageBlock
         url: /images/BBDO.png
-        altText: Logo four
+        altText: BBDO
         caption: Logo four
       - type: ImageBlock
         url: /images/logo5.svg
