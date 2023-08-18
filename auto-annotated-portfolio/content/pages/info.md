@@ -119,7 +119,7 @@ sections:
         actions:
           - type: Link
             label: GitHub
-            url: 'https://github.com/'
+            url: 'https://github.com/sshourie'
             showIcon: true
             icon: github
         styles:
