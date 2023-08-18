@@ -70,7 +70,7 @@ sections:
         altText: Linedata
         caption: Linedata
       - type: ImageBlock
-        url: /images/logo4.svg
+        url: /images/BBDO.png
         altText: Logo four
         caption: Logo four
       - type: ImageBlock
