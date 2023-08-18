@@ -152,6 +152,7 @@ sections:
             label: Mail
             url: 'https://codepen.io/'
             showIcon: true
+            icon: mail
         styles:
           self:
             textAlign: left
