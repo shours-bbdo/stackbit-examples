@@ -201,7 +201,7 @@ sections:
       - type: Label
         label: R
       - type: Label
-        label: Next.js
+        label: Javascript
       - type: Label
         label: Stackbit
       - type: Label
