@@ -138,21 +138,21 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: StackOverflow
-            url: 'https://stackoverflow.com/users/6385519/suraj-shourie'
+            label: LinkedIn
+            url: 'https://www.linkedin.com/in/suraj-shourie/'
             showIcon: true
-            iconPosition: right
-            elementId: StackOverflow
+            icon: linkedin
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         actions:
           - type: Link
-            label: LinkedIn
-            url: 'https://www.linkedin.com/in/suraj-shourie/'
+            label: StackOverflow
+            url: 'https://stackoverflow.com/users/6385519/suraj-shourie'
             showIcon: true
-            icon: linkedin
+            iconPosition: right
+            elementId: StackOverflow
         styles:
           self:
             textAlign: left
