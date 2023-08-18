@@ -132,6 +132,7 @@ sections:
             url: 'https://twitter.com/'
             showIcon: true
             iconPosition: right
+            elementId: StackOverflow
         styles:
           self:
             textAlign: left
