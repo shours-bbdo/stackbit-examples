@@ -4,7 +4,10 @@ title: Sentiment Analysis on advertisements using Python
 colors: colors-a
 date: '2022-01-22'
 client: Awesome client
-description: This project onvolved using
+description: >-
+  This project involved using selenium to automate data downloading (web
+  scraping) for a lot of advertisements. After that I used pre-trained
+  transformers from HuggingFace to do sentiment analysis on textual repsonses.
 featuredImage:
   type: ImageBlock
   url: /images/bg3.jpg
