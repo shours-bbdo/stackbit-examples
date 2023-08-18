@@ -72,7 +72,7 @@ sections:
       - type: ImageBlock
         url: /images/BBDO.png
         altText: BBDO
-        caption: Logo four
+        caption: BBDO
       - type: ImageBlock
         url: /images/logo5.svg
         altText: Logo five
