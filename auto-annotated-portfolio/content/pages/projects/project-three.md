@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Sentiment Analysis using Python
+title: Sentiment Analysis on advertisements using Python
 colors: colors-a
 date: '2022-01-22'
 client: Awesome client
