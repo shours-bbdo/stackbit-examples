@@ -80,7 +80,7 @@ sections:
     spacing: 34
     columns: 4
     aspectRatio: '3:2'
-    showCaption: false
+    showCaption: true
     enableHover: true
     styles:
       self:
