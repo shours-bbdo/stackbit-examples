@@ -75,7 +75,7 @@ sections:
         caption: Linedata
       - type: ImageBlock
         url: /images/Delloite.webp
-        altText: Logo five
+        altText: Deloitte
         caption: Logo five
     spacing: 34
     columns: 4
