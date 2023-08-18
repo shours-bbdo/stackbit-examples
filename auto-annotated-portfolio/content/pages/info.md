@@ -130,6 +130,7 @@ sections:
           - type: Link
             label: Twitter
             url: 'https://twitter.com/'
+            showIcon: true
         styles:
           self:
             textAlign: left
