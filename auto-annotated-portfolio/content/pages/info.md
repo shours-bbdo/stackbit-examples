@@ -77,7 +77,7 @@ sections:
         url: /images/Delloite.webp
         altText: Deloitte
         caption: Deloitte
-    spacing: 15
+    spacing: 44
     columns: 4
     aspectRatio: '3:2'
     showCaption: false
