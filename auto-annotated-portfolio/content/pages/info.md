@@ -150,7 +150,7 @@ sections:
         actions:
           - type: Link
             label: Mail
-            url: 'https://codepen.io/'
+            url: 'mailto:shourie.suraj@gmail.com'
             showIcon: true
             icon: mail
         styles:
