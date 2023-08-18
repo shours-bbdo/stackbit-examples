@@ -118,20 +118,20 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: GitHub
-            url: 'https://github.com/sshourie'
+            label: Mail
+            url: 'mailto:shourie.suraj@gmail.com'
             showIcon: true
-            icon: github
+            icon: mail
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Mail
-            url: 'mailto:shourie.suraj@gmail.com'
+            label: GitHub
+            url: 'https://github.com/sshourie'
             showIcon: true
-            icon: mail
+            icon: github
         styles:
           self:
             textAlign: left
