@@ -128,7 +128,7 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Twitter
+            label: StackOverflow
             url: 'https://twitter.com/'
             showIcon: true
             iconPosition: right
