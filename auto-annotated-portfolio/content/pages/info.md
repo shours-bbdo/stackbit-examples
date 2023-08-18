@@ -257,18 +257,19 @@ sections:
               - pr-0
       - type: FeaturedItem
         subtitle: 'Education:'
-        text: |-
-          **2015-2018**
+        text: >+
+          **2022-2023**
 
-          * ba computer sciense at a semi fancy school
 
-          **2014**
+          *   MS in Computational Analytics at Georgia Tech
 
-          * react certificate somewhere
 
-          **2011**
+          **2013-2017**
 
-          * my highschool
+
+          *   BTech in Material Science at Indian Institute of Technology,
+          Bombay
+
         styles:
           self:
             textAlign: left
