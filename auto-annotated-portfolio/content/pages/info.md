@@ -227,26 +227,19 @@ sections:
     items:
       - type: FeaturedItem
         subtitle: 'Experience:'
-        text: |-
+        text: |+
           **Current**
 
-          * freelance @freelance.me
+          *   Part-time data scientist at BBDO Atlanta
 
-          **2018-2021**
+          **2019-2022**
 
-          * fullstack at this startup
+          *   Associate quantitative strategist at Goldman Sachs
 
-          **2015**
+          **2017-2019**
 
-          * senior front-end at this place
+          *   Financial risk analyst at Linedata (previously know as Gravitas)
 
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
         styles:
           self:
             textAlign: left
