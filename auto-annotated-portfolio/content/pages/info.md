@@ -61,31 +61,27 @@ sections:
     subtitle: 'I worked with these folks:'
     images:
       - type: ImageBlock
+        url: /images/BBDO.png
+        altText: BBDO
+        caption: BBDO
+      - type: ImageBlock
         url: /images/GoldmanSachs.png
-        altText: altText of the image
-        caption: Caption of the image
+        altText: Goldman Sachs
+        caption: Goldman Sachs
         elementId: ''
       - type: ImageBlock
         url: /images/LineData.jpg
-        altText: Logo two
-        caption: Logo two
+        altText: Linedata
+        caption: Linedata
       - type: ImageBlock
-        url: /images/logo3.svg
-        altText: Logo three
-        caption: Logo three
-      - type: ImageBlock
-        url: /images/logo4.svg
-        altText: Logo four
-        caption: Logo four
-      - type: ImageBlock
-        url: /images/logo5.svg
-        altText: Logo five
-        caption: Logo five
-    spacing: 3
-    columns: 5
-    aspectRatio: '16:9'
+        url: /images/Delloite.webp
+        altText: Deloitte
+        caption: Deloitte
+    spacing: 50
+    columns: 4
+    aspectRatio: '3:2'
     showCaption: false
-    enableHover: false
+    enableHover: true
     styles:
       self:
         width: wide
@@ -122,16 +118,20 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: GitHub
-            url: 'https://github.com/'
+            label: Mail
+            url: 'mailto:shourie.suraj@gmail.com'
+            showIcon: true
+            icon: mail
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Twitter
-            url: 'https://twitter.com/'
+            label: GitHub
+            url: 'https://github.com/sshourie'
+            showIcon: true
+            icon: github
         styles:
           self:
             textAlign: left
@@ -139,35 +139,24 @@ sections:
         actions:
           - type: Link
             label: LinkedIn
-            url: 'https://www.linkedin.com/'
+            url: 'https://www.linkedin.com/in/suraj-shourie/'
+            showIcon: true
+            icon: linkedin
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         actions:
           - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
+            label: StackOverflow
+            url: 'https://stackoverflow.com/users/6385519/suraj-shourie'
+            showIcon: true
+            iconPosition: right
+            elementId: StackOverflow
         styles:
           self:
             textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Discord
-            url: 'https://discord.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/'
-        styles:
-          self:
-            textAlign: left
-    columns: 3
+    columns: 4
     spacingX: 120
     spacingY: 0
     styles:
@@ -206,13 +195,13 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: Python
       - type: Label
-        label: React
+        label: SQL
       - type: Label
-        label: Microsoft Office
+        label: R
       - type: Label
-        label: Next.js
+        label: Javascript
       - type: Label
         label: Stackbit
       - type: Label
@@ -221,24 +210,6 @@ sections:
         label: C++
       - type: Label
         label: Swift
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
-  - type: TextSection
-    variant: variant-a
-    subtitle: 'Contact:'
-    colors: colors-f
-    text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
   - type: DividerSection
     styles:
       self:
@@ -256,26 +227,19 @@ sections:
     items:
       - type: FeaturedItem
         subtitle: 'Experience:'
-        text: |-
+        text: |+
           **Current**
 
-          * freelance @freelance.me
+          *   Part-time data scientist at BBDO Atlanta
 
-          **2018-2021**
+          **2019-2022**
 
-          * fullstack at this startup
+          *   Associate quantitative strategist at Goldman Sachs
 
-          **2015**
+          **2017-2019**
 
-          * senior front-end at this place
+          *   Financial risk analyst at Linedata (previously know as Gravitas)
 
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
         styles:
           self:
             textAlign: left
@@ -286,18 +250,19 @@ sections:
               - pr-0
       - type: FeaturedItem
         subtitle: 'Education:'
-        text: |-
-          **2015-2018**
+        text: >+
+          **2022-2023**
 
-          * ba computer sciense at a semi fancy school
 
-          **2014**
+          *   MS in Computational Analytics at Georgia Tech
 
-          * react certificate somewhere
 
-          **2011**
+          **2013-2017**
 
-          * my highschool
+
+          *   BTech in Material Science at Indian Institute of Technology,
+          Bombay
+
         styles:
           self:
             textAlign: left
@@ -331,85 +296,5 @@ sections:
       title:
         textAlign: left
       subtitle:
-        textAlign: left
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
-  - type: ContactSection
-    backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
-    colors: colors-f
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      destination: ''
-      action: /.netlify/functions/submission_created
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Tell me about your project
-          isRequired: true
-          width: full
-          type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        submitLabel:
-          textAlign: center
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
-        padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        textAlign: left
-      text:
         textAlign: left
 ---
