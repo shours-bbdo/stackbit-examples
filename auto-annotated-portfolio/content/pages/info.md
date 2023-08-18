@@ -141,6 +141,7 @@ sections:
           - type: Link
             label: LinkedIn
             url: 'https://www.linkedin.com/in/suraj-shourie/'
+            showIcon: true
         styles:
           self:
             textAlign: left
