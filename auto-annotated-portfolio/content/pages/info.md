@@ -120,6 +120,7 @@ sections:
           - type: Link
             label: GitHub
             url: 'https://github.com/'
+            showIcon: true
         styles:
           self:
             textAlign: left
