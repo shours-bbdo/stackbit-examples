@@ -13,14 +13,12 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+    text: >
+      Hey I’m a data scientist. Currently pursuing my MS in Computational
+      analytics at GeorgiaTech
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/GT2022_Headshot_Low_Res.jpg
       altText: Hero image
     styles:
       self:
@@ -63,11 +61,12 @@ sections:
     subtitle: 'I worked with these folks:'
     images:
       - type: ImageBlock
-        url: /images/logo1.svg
-        altText: Logo one
-        caption: Logo one
+        url: /images/GoldmanSachs.png
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
       - type: ImageBlock
-        url: /images/logo2.svg
+        url: /images/LineData.jpg
         altText: Logo two
         caption: Logo two
       - type: ImageBlock
@@ -84,7 +83,7 @@ sections:
         caption: Logo five
     spacing: 3
     columns: 5
-    aspectRatio: auto
+    aspectRatio: '16:9'
     showCaption: false
     enableHover: false
     styles:
