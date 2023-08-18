@@ -68,7 +68,7 @@ sections:
       - type: ImageBlock
         url: /images/LineData.jpg
         altText: Linedata
-        caption: Logo two
+        caption: Linedata
       - type: ImageBlock
         url: /images/logo3.svg
         altText: Logo three
