@@ -67,7 +67,7 @@ sections:
         elementId: ''
       - type: ImageBlock
         url: /images/LineData.jpg
-        altText: Logo two
+        altText: Linedata
         caption: Logo two
       - type: ImageBlock
         url: /images/logo3.svg
