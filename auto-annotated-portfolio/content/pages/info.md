@@ -151,6 +151,7 @@ sections:
           - type: Link
             label: Mail
             url: 'https://codepen.io/'
+            showIcon: true
         styles:
           self:
             textAlign: left
