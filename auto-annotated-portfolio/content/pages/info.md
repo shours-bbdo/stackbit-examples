@@ -61,14 +61,14 @@ sections:
     subtitle: 'I worked with these folks:'
     images:
       - type: ImageBlock
+        url: /images/LineData.jpg
+        altText: Linedata
+        caption: Linedata
+      - type: ImageBlock
         url: /images/GoldmanSachs.png
         altText: Goldman Sachs
         caption: Goldman Sachs
         elementId: ''
-      - type: ImageBlock
-        url: /images/LineData.jpg
-        altText: Linedata
-        caption: Linedata
       - type: ImageBlock
         url: /images/logo3.svg
         altText: Logo three
