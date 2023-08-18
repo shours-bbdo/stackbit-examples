@@ -128,6 +128,16 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
+            label: Mail
+            url: 'mailto:shourie.suraj@gmail.com'
+            showIcon: true
+            icon: mail
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        actions:
+          - type: Link
             label: StackOverflow
             url: 'https://stackoverflow.com/users/6385519/suraj-shourie'
             showIcon: true
@@ -143,16 +153,6 @@ sections:
             url: 'https://www.linkedin.com/in/suraj-shourie/'
             showIcon: true
             icon: linkedin
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Mail
-            url: 'mailto:shourie.suraj@gmail.com'
-            showIcon: true
-            icon: mail
         styles:
           self:
             textAlign: left
