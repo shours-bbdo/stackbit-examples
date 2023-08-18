@@ -199,7 +199,7 @@ sections:
       - type: Label
         label: SQL
       - type: Label
-        label: Microsoft Office
+        label: R
       - type: Label
         label: Next.js
       - type: Label
