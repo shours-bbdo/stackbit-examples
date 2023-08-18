@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Sentiment Analysis on advertisements using Python
+title: Web Scraping and Sentiment Analysis on advertisement data using Python
 colors: colors-a
 date: '2022-01-22'
 client: Awesome client
