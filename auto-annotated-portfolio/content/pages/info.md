@@ -131,6 +131,7 @@ sections:
             label: Twitter
             url: 'https://twitter.com/'
             showIcon: true
+            iconPosition: right
         styles:
           self:
             textAlign: left
