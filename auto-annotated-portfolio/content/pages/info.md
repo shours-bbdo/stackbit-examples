@@ -16,8 +16,6 @@ sections:
     text: >
       Hey I’m a data scientist. Currently pursuing my MS in Computational
       analytics at GeorgiaTech
-      ![](https://preview--stackbit-examples-f9cf6.stackbit.dev/images/GT_Logo.png){width:
-      200px }
     media:
       type: ImageBlock
       url: /images/GT2022_Headshot_Low_Res.jpg
