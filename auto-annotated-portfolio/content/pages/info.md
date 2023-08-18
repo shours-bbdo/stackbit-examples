@@ -121,6 +121,7 @@ sections:
             label: GitHub
             url: 'https://github.com/'
             showIcon: true
+            icon: github
         styles:
           self:
             textAlign: left
