@@ -129,7 +129,7 @@ sections:
         actions:
           - type: Link
             label: StackOverflow
-            url: 'https://twitter.com/'
+            url: 'https://stackoverflow.com/users/6385519/suraj-shourie'
             showIcon: true
             iconPosition: right
             elementId: StackOverflow
