@@ -76,7 +76,7 @@ sections:
       - type: ImageBlock
         url: /images/Delloite.webp
         altText: Deloitte
-        caption: Logo five
+        caption: Deloitte
     spacing: 34
     columns: 4
     aspectRatio: '3:2'
