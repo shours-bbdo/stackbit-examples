@@ -10,7 +10,7 @@ description: >-
   transformers from HuggingFace to do sentiment analysis on textual repsonses.
 featuredImage:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/sentiment_analysis2.jpg
   altText: Project thumbnail image
 media:
   type: ImageBlock
