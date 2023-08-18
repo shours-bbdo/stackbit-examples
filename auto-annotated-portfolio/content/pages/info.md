@@ -140,7 +140,7 @@ sections:
         actions:
           - type: Link
             label: LinkedIn
-            url: 'https://www.linkedin.com/'
+            url: 'https://www.linkedin.com/in/suraj-shourie/'
         styles:
           self:
             textAlign: left
