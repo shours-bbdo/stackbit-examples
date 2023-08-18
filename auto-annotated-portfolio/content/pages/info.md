@@ -62,7 +62,7 @@ sections:
     images:
       - type: ImageBlock
         url: /images/GoldmanSachs.png
-        altText: altText of the image
+        altText: Goldman Sachs
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
