@@ -3,8 +3,7 @@ type: ProjectLayout
 title: Another cool project
 colors: colors-a
 date: '2021-12-20'
-client: >-
-  [SCCM](https://sccm.org/Research/Discovery-Research-Network/datascience/Datathon)
+client: SCCM
 description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably
   because I worked with an entire team :) but they definitely followed my lead
