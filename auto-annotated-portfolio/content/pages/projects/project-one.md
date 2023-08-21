@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: A very cool code project
+title: Diffusion Limited Aggreagation
 colors: colors-a
 date: '2021-10-15'
 client: ''
