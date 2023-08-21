@@ -6,7 +6,7 @@ date: '2021-12-20'
 client: SCCM
 description: >-
   This project was done in collaboration with clinicians to address real-world
-  problems in healthcare using existing databases.
+  problems in healthcare using existing databases. 
 featuredImage:
   type: ImageBlock
   url: /images/bg2.jpg
