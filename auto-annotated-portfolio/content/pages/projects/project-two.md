@@ -7,7 +7,8 @@ client: SCCM
 description: >-
   This project was done in collaboration with clinicians to address real-world
   problems in healthcare using existing databases. Our problem statement was to
-  check
+  check if patients were given different sedative drugs based on ethnicity, race
+  or other factors.
 featuredImage:
   type: ImageBlock
   url: /images/sccm-logo.png
