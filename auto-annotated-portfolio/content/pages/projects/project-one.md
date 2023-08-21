@@ -14,7 +14,7 @@ featuredImage:
   altText: Project thumbnail image
 media:
   type: ImageBlock
-  url: /images/DLA.png
+  url: /images/DLA_2.png
   altText: Project image
 ---
 
