@@ -17,15 +17,60 @@ media:
   url: /images/DLA_2.png
   altText: Project image
 ---
+# Diffusion Limited Aggregation (DLA): 
+DLA describes the diffusion and aggregation of zinc ions in an electrolytic solution onto electrodes. "Diffusion" because the particles forming the structure wander around randomly before attaching themselves ("Aggregating") to the structure. "Diffusion-limited" because the particles are considered to be in low concentrations so they don't come in contact with each other and the structure grows one particle at a time rather then by chunks of particles. Other examples can be found in coral growth, the path taken by lightning, coalescing of dust or smoke particles, and the growth of some crystals.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+Another more colourful description involves a city square surrounded by taverns. Drunks leave the taverns and stagger randomly around the square until they finally trip over one their insensate companions at which time, lulled by the sounds of peaceful snoring, they lie down and fall asleep. The tendril like structure is an aerial view of the sleeping crowd in the morning.
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
 
-> “Everybody should learn to program a computer, because it teaches you how to think.”
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+## Detailed Problem statement:
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+### Introduction
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+*   This problem is based on the Diffusion Limited Aggregation (DLA) model as described on this [page](https://paulbourke.net/fractals/dla/).
+
+*   Here is an excerpt from the above page, describing the model:
+
+    *   "start with a white image except for a single black pixel in the center. New points are introduced at the borders and randomly (approximation of Brownian motion) walk until they are close enough to stick to an existing   black pixel. A typical example of this is shown below in figure 1. If a point, during its random walk, approaches an edge of the image there are two strategies. The point either bounces off the edge or the image is toroidally bound (a point moving off the left edge enters on the right, a point moving off the right edge enters on the left, similarly for top and bottom). In general new points can be seeded anywhere in the image area, not just around the border without any significant visual difference."
+
+*   Here is a more precise statement of the above description:
+
+    *   Start with a M x M matrix, with all entries as 0 (representing "empty") except for the center cell of the matrix which has a 1 (representing "occupied with a particle").
+
+    *   Choose a cell randomly along the border of the matrix (i.e, along one of its 4 edges), and fill it with a 1. This represents introducing a new particle at the edge of the arena.
+
+    *   Make this particle do a 2D random walk in the empty region of the matrix. In other words, at every iteration, randomly select an empty neighboring cell, and move the particle there, leaving the old cell empty.
+
+    *   Continue the random walk until the particle encounters another particle in an adjacent cell.
+
+    *   The random walk now stops, and the particle remains stuck here forever.
+
+    *   Repeat the above procedure (introducing new particles, random walk, sticking to existing particles) for N particles.
+
+    *   To be clear, only 1 particle does a random walk at a time, and a new one is not introduced until the previous one has found a place to stick to.
+
+*   Refer to figure 1 on the above page to see an example of what the output of such a simulation looks like.
+
+*   Next, refer to the definition of "stickiness" as given just above Figure 6.
+
+*   Refer to Figures 6, 7 and 8 to see the effect of varying stickiness.
+
+### The task
+
+*   Write code in a language of your choice to simulate DLA for a given value of stickiness. Use a matrix (or "image", as per the above websites language) of at least 500x500 cells (or "pixels"), and at least 50,000 particles to run your DLA simulations.
+
+*   Propose an algorithm to estimate the "stickiness" parameter with which a given DLA output was generated.
+
+*   Extra points if you can support your algorithm with data gathered from your DLA simulations.
+    Note that the accuracy/robustness of your algorithm is not important. What is important is that your approach seems intuitively correct, and worth exploring.
+
+### Further clarification
+
+Here is the task of stickiness estimation:
+
+*   Assume you don't have access to the program that generated the output. All you are given is the output of a given DLA run using N particles some stickiness k. You have not been given the value of N or k. Estimate k just by analyzing the output that is given to you. The output consists of a 1001x1001 matrix of 0's and 1's, that you know has been generated using DLA.
+    For simplicity, assume that k can only take values between 1e-3 and 5e-2.
+
+*   It will be very interesting to see any analysis that you do on DLA outputs to show that the approaches you suggest would work, or not work. To reiterate: it is perfectly fine if the approach(es) you suggest end up being not effective, but it would be very interesting to see any analysis/evidence you can show that tells us how effective your approach is.
+
