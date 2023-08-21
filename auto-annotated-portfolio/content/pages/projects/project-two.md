@@ -22,7 +22,7 @@ This project was part of a [datathon](https://sccm.org/Research/Discovery-Resear
 
 #### Problem Description:
 
-> Are there differences in sedative agent selection in adult patients on invasive mechanical ventilation based on race
+> Are there differences in sedative agent selection in adult patients on invasive mechanical ventilation based on race or ethnicity.
 
 #### Databases:
 
@@ -33,7 +33,5 @@ We used two critical care databases:[ MIMIC-IV](https://physionet.org/content/mi
 We used [BigQuery](https://console.cloud.google.com/bigquery?project=sccm-datathon) to easily explore the large datasets using SQL.
 
 See example code on my [github](https://github.com/sshourie/SCCM-hackathon/tree/main) repository.
-
-
 
 **Tags:** Python, BigQuery, SQL
