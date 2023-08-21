@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Diffusion Limited Aggreagation
+title: Diffusion Limited Aggregation using R programming
 colors: colors-a
 date: '2021-10-15'
 client: ''
