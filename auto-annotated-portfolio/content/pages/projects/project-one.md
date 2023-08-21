@@ -6,7 +6,7 @@ date: '2021-10-15'
 client: ''
 description: >-
   The problem is based on recreating the snowflake like structure called
-  diffusion limited aggregation (DLA) using R programming and analysing the
+  diffusion limited aggregation (DLA) using R programming and analyzing the
   effects of stickiness of particles.
 featuredImage:
   type: ImageBlock
