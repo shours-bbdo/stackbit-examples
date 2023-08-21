@@ -13,7 +13,7 @@ featuredImage:
   altText: Project thumbnail image
 media:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/sccm-logo.png
   altText: Project image
 ---
 This project was part of a [datathon](https://sccm.org/Research/Discovery-Research-Network/datascience/Datathon) with Society of Critical Care Medicine (SCCM), which involved coloration with clinicians and pharmacists to develop a data-driven model for care of critically ill patients using large health record databases.
