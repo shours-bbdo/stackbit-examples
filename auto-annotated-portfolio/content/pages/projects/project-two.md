@@ -9,7 +9,7 @@ description: >-
   problems in healthcare using existing databases. 
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/sccm-logo.png
   altText: Project thumbnail image
 media:
   type: ImageBlock
