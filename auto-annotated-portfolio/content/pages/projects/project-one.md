@@ -17,12 +17,13 @@ media:
   url: /images/DLA_2.png
   altText: Project image
 ---
-# Diffusion Limited Aggregation (DLA): 
-DLA describes the diffusion and aggregation of zinc ions in an electrolytic solution onto electrodes. "Diffusion" because the particles forming the structure wander around randomly before attaching themselves ("Aggregating") to the structure. "Diffusion-limited" because the particles are considered to be in low concentrations so they don't come in contact with each other and the structure grows one particle at a time rather then by chunks of particles. Other examples can be found in coral growth, the path taken by lightning, coalescing of dust or smoke particles, and the growth of some crystals.
+# Diffusion Limited Aggregation (DLA):
+
+DLA was first used to describe the diffusion and aggregation of zinc ions in an electrolytic solution onto electrodes. "Diffusion" because the particles forming the structure wander around randomly before attaching themselves ("Aggregating") to the structure. "Diffusion-limited" because the particles are considered to be in low concentrations so they don't come in contact with each other and the structure grows one particle at a time rather then by chunks of particles. 
+
+Other examples can be found in coral growth, the path taken by lightning, coalescing of dust or smoke particles, and the growth of some crystals.
 
 Another more colourful description involves a city square surrounded by taverns. Drunks leave the taverns and stagger randomly around the square until they finally trip over one their insensate companions at which time, lulled by the sounds of peaceful snoring, they lie down and fall asleep. The tendril like structure is an aerial view of the sleeping crowd in the morning.
-
-
 
 ## Detailed Problem statement:
 
