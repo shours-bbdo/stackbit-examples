@@ -4,7 +4,10 @@ title: Diffusion Limited Aggregation using R programming
 colors: colors-a
 date: '2021-10-15'
 client: ''
-description: 'The problem is based on recreating the ice like '
+description: >-
+  The problem is based on recreating the snowflake like structure called
+  diffusion limited aggregation (DLA) using R programming and analysing the
+  effects of stickiness of particles.
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
