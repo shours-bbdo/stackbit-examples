@@ -19,7 +19,7 @@ media:
 ---
 # Diffusion Limited Aggregation (DLA):
 
-DLA was first used to describe the diffusion and aggregation of zinc ions in an electrolytic solution onto electrodes. "Diffusion" because the particles forming the structure wander around randomly before attaching themselves ("Aggregating") to the structure. "Diffusion-limited" because the particles are considered to be in low concentrations so they don't come in contact with each other and the structure grows one particle at a time rather then by chunks of particles. 
+DLA was first used to describe the diffusion and aggregation of zinc ions in an electrolytic solution onto electrodes. "Diffusion" because the particles forming the structure wander around randomly before attaching themselves ("Aggregating") to the structure. "Diffusion-limited" because the particles are considered to be in low concentrations so they don't come in contact with each other and the structure grows one particle at a time rather then by chunks of particles.
 
 Other examples can be found in coral growth, the path taken by lightning, coalescing of dust or smoke particles, and the growth of some crystals.
 
@@ -57,21 +57,30 @@ Another more colourful description involves a city square surrounded by taverns.
 
 *   Refer to Figures 6, 7 and 8 to see the effect of varying stickiness.
 
-### The task
+### Approach:
 
-*   Write code in a language of your choice to simulate DLA for a given value of stickiness. Use a matrix (or "image", as per the above websites language) of at least 500x500 cells (or "pixels"), and at least 50,000 particles to run your DLA simulations.
+See github code and report [here](https://github.com/sshourie/DLA-using-R/tree/master). 
 
-*   Propose an algorithm to estimate the "stickiness" parameter with which a given DLA output was generated.
+1.  My first approach was to create a brute force random walker which moves with an equal probability
+    along the four directions. This worked well for small sample sizes but did not scale well to an increase in
+    number of particles.
 
-*   Extra points if you can support your algorithm with data gathered from your DLA simulations.
-    Note that the accuracy/robustness of your algorithm is not important. What is important is that your approach seems intuitively correct, and worth exploring.
+2\. To reduce the run time and taking inspiration from mean reversion present in auto-regressive models, I
+created a bias in the random walk for center seeking moves. This drastically reduced the run-time and I
+could run the models for a larger N.
+Unexpectedly, a star like pattern emerged, as seen in the image below, especially for large number of
+particles. I believe that this pattern occurred because the algorithm used introduced a relatively high bias
+for center seeking moves. Thus the prevalence of particles along the diagonal and the two axes.
 
-### Further clarification
 
-Here is the task of stickiness estimation:
+3\. The main problem affecting the time required to generate the DLA is that as the dimension of the
+bounding square (M) grows, the particles need to ‘walk’ a lot before they meet the aggregate. So to
+reduce the time taken for creating the DLA, I introduced the particles closer to the aggregate along the
+minimum bounding circle.
 
-*   Assume you don't have access to the program that generated the output. All you are given is the output of a given DLA run using N particles some stickiness k. You have not been given the value of N or k. Estimate k just by analyzing the output that is given to you. The output consists of a 1001x1001 matrix of 0's and 1's, that you know has been generated using DLA.
-    For simplicity, assume that k can only take values between 1e-3 and 5e-2.
 
-*   It will be very interesting to see any analysis that you do on DLA outputs to show that the approaches you suggest would work, or not work. To reiterate: it is perfectly fine if the approach(es) you suggest end up being not effective, but it would be very interesting to see any analysis/evidence you can show that tells us how effective your approach is.
+4\. Estimating Stickiness: I calculated "stickiness" using surface area calculations of the particles.
+
+5\. Next I created regressions models to see if any relationship exists between stickiness. 
+
 
