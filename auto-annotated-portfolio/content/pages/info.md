@@ -211,8 +211,6 @@ sections:
       - type: Label
         label: Javascript
       - type: Label
-        label: Stackbit
-      - type: Label
         label: Pancakes
       - type: Label
         label: Swift
