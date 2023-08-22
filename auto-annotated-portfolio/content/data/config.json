@@ -46,12 +46,6 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
-                "url": "/info",
-                "altText": ""
-            },
-            {
-                "type": "Link",
                 "label": "Resume",
                 "altText": "",
                 "url": "https://drive.google.com/file/d/1Jz3ImHQGsza6x_4JiJu6SgFbLDl8fFom/view?usp=sharing",
@@ -59,6 +53,12 @@
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Info",
+                "url": "/info",
+                "altText": ""
             },
             {
                 "type": "Link",
