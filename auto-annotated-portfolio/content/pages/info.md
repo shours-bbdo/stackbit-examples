@@ -251,7 +251,7 @@ sections:
       - type: FeaturedItem
         subtitle: 'Education:'
         text: >+
-          **2022-2023**
+          **2022-2023 (Ongoing)**
 
 
           *   MS in Computational Analytics at Georgia Tech
