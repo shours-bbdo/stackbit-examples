@@ -230,7 +230,7 @@ sections:
         text: |+
           **Current**
 
-          *   Part-time data scientist at BBDO Atlanta
+          *   Data scientist (Part-time) at BBDO Atlanta
 
           **2019-2022**
 
