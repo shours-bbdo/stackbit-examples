@@ -78,7 +78,7 @@
             },
             {
                 "type": "Link",
-                "label": "Learn more",
+                "label": "StackOverflow",
                 "altText": "",
                 "url": "https://stackoverflow.com/users/6385519/suraj-shourie",
                 "showIcon": false,
