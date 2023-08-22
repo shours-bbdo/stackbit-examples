@@ -14,8 +14,13 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >
-      Hey I’m a data scientist. Currently pursuing my MS in Computational
-      analytics at GeorgiaTech
+      I’m a graduate student currently pursuing my MS in Computational analytics
+      at GeorgiaTech with a focus on Machine Learning and statistical methods.
+
+
+      I'm currently working as a data scientist at BBDO Atlanta. I have
+      previously worked for 5 years in different analytical roles in the field
+      of finance.  
     media:
       type: ImageBlock
       url: /images/GT2022_Headshot_Low_Res.jpg
