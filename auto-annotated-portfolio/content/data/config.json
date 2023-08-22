@@ -46,20 +46,18 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
-                "url": "/info",
-                "altText": ""
+                "label": "Resume",
+                "altText": "",
+                "url": "https://drive.google.com/file/d/1Jz3ImHQGsza6x_4JiJu6SgFbLDl8fFom/view?usp=sharing",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             },
             {
                 "type": "Link",
                 "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
+                "url": "mailto:shourie.suraj@gmail.com",
                 "altText": ""
             },
             {
@@ -67,19 +65,29 @@
                 "label": "GitHub",
                 "url": "https://github.com/stackbit-themes",
                 "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "LinkedIn",
+                "altText": "",
+                "url": "https://www.linkedin.com/in/suraj-shourie/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "StackOverflow",
+                "altText": "",
+                "url": "https://stackoverflow.com/users/6385519/suraj-shourie",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
-        "contacts": {
-            "type": "ContactBlock",
-            "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
-        },
-        "copyrightText": "Powered by [Stackbit](https://www.stackbit.com/)",
+        "copyrightText": "Suraj Shourie\n",
         "styles": {
             "self": {
                 "width": "narrow",
