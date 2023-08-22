@@ -215,8 +215,6 @@ sections:
       - type: Label
         label: Pancakes
       - type: Label
-        label: C++
-      - type: Label
         label: Swift
   - type: DividerSection
     styles:
