@@ -67,6 +67,17 @@
                 "label": "GitHub",
                 "url": "https://github.com/stackbit-themes",
                 "altText": ""
+            },
+            {
+                "type": "Button",
+                "label": "Learn more",
+                "altText": "",
+                "url": "https://drive.google.com/file/d/1Jz3ImHQGsza6x_4JiJu6SgFbLDl8fFom/view?usp=sharing",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "primary",
+                "elementId": ""
             }
         ],
         "contacts": {
