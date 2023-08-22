@@ -212,8 +212,6 @@ sections:
         label: Javascript
       - type: Label
         label: Pancakes
-      - type: Label
-        label: Swift
   - type: DividerSection
     styles:
       self:
