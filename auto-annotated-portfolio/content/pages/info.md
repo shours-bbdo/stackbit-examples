@@ -20,7 +20,10 @@ sections:
 
       I'm currently working as a data scientist at BBDO Atlanta. I have
       previously worked for 5 years in different analytical roles in the field
-      of finance.  
+      of finance.
+
+
+      Scroll to learn more about me!
     media:
       type: ImageBlock
       url: /images/GT2022_Headshot_Low_Res.jpg
