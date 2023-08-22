@@ -200,7 +200,7 @@ sections:
         borderStyle: solid
   - type: LabelsSection
     colors: colors-f
-    subtitle: 'Skills:'
+    subtitle: 'Languages:'
     items:
       - type: Label
         label: Python
