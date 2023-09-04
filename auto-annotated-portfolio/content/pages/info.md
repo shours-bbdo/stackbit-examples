@@ -15,15 +15,21 @@ sections:
     backgroundSize: full
     text: >
       I’m a graduate student currently pursuing my MS in Computational analytics
-      at GeorgiaTech with a focus on Machine Learning and statistical methods.
+      at [Georgia Institute of Technology](https://www.analytics.gatech.edu/),
+      graduating in Dec 2023, with a focus on Machine Learning and statistical
+      methods.
 
 
-      I'm currently working as a data scientist at BBDO Atlanta. I have
-      previously worked for 5 years in different analytical roles in the field
-      of finance.
+      I'm currently working as a data scientist intern at [BBDO
+      Atlanta](https://bbdoatl.com/).  
 
 
-      Scroll to learn more about me!
+      I have previously worked for 5 years in different analytical roles in the
+      field of finance. Most recently as an Associate for the Fixed Income
+      Quants team for [Goldman
+      Sachs](https://www.goldmansachs.com/worldwide/india/careers/bengaluru-office/)
+      where I worked on financial modelling, quantitative strategies, asset
+      managment, and risk. 
     media:
       type: ImageBlock
       url: /images/GT2022_Headshot_Low_Res.jpg
